@@ -5,7 +5,7 @@ services:
     build: .
     restart: always
     ports:
-      - 8080:8080
+      - 8090:2020
     environment:
      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/localspringbootdb
      SPRING_DATASOURCE_USERNAME: admin
